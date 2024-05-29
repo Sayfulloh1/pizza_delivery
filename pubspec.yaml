@@ -19,6 +19,7 @@ dependencies:
   flutter_bloc:
   equatable:
   cupertino_icons: ^1.0.6
+  font_awesome_flutter:
 
   user_repository:
     path: packages/user_repository
