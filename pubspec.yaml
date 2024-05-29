@@ -1,0 +1,35 @@
+name: pizza_app
+description: "A new Flutter project dedicated to pizza delivery"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  firebase_core:
+  bloc:
+  flutter_bloc:
+  equatable:
+  cupertino_icons: ^1.0.6
+
+  user_repository:
+    path: packages/user_repository
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+
